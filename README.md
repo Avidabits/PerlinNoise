@@ -1,7 +1,6 @@
 # Perlin Noise
 Experiencias de serigrafía con Processing y ruido de Perlin 
 
-ACCESO HTML EN PRUEBAS. 
 
 Url de pruebas:  http://rawgit.com/Avidabits/PerlinNoise/master/PerlinNoise.html
 
