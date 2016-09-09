@@ -6,7 +6,7 @@ int tiempoDeVida=5000;
 
 void setup(){
   smooth();
-  size(displayWidth,displayHeight);
+  on_nueva_size(1280, 720);//  size(displayWidth,displayHeight); ESTAS VARIABLES NO ESTAN DISPONIBLES EN PROCESSING.JS
  
   background(255);
 }
@@ -108,5 +108,13 @@ class Point{
     stroke(0, 20);
     ellipse(pos.x, pos.y, 1-(age/lifeTime), 1-(age/lifeTime));
   }
-};
+}; 
+
+// se usa para inicializar el tamaño y tambien es llamada desde el htlml cuando cambia el tamaño 
+// de la venta
+void on_nueva_size(int p_ancho, int p_alto)
+{
+  size( p_ancho, p_alto ); //tamaño del canvas
+    
+}
 
